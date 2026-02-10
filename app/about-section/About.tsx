@@ -12,10 +12,10 @@ const About = () => {
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
           text={
-            "I MAKE BRANDS BEAUTIFUL, WEBSITES POWERFUL AND CONTENT CAPTIVATING."
+            "I TURN COMPLEX SYSTEMS INTO FAST, RELIABLE, AND USER-FRIENDLY PRODUCTS."
           }
           className={
-            "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
+            "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[75px]"
           }
           wordSpace={"mr-[14px]"}
           charSpace={"mr-[0.001em]"}
@@ -25,28 +25,28 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in crafting high-converting landing pages and websites for SaaS, Web3 & AI startups. I'm passionate about building software that makes a difference."
+                "I build scalable, high-performance web applications with a strong focus on clean UI and reliable systems. I enjoy turning complex ideas into simple, user-friendly digital experiences."
               }
             />
             <AnimatedBody
               text={
-                "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                "Currently, I work in the travel technology space, developing production-ready solutions used across web and mobile platforms. Performance, scalability, and maintainability are always top priorities in my work."
               }
               className={"hidden"}
             />
             <AnimatedBody
               text={
-                "Beyond my work as a frontend developer, I'm an active leader in tech communities on campus. As a member of the Google Developer Student Clubs and Microsoft Learn Student Ambassadors, I've led workshops and mentored other students."
+                "I collaborate closely with designers, developers, and clients to translate requirements into well-architected products. I enjoy system design discussions, sprint planning, and taking ownership of features end to end."
               }
             />
             <AnimatedBody
               text={
-                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, cheering on Manchester United, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap."
+                "Outside of work, I’m constantly learning and experimenting with new tools and ideas. I’m always open to new opportunities, collaborations, and meaningful projects."
               }
             />
             <AnimatedBody
               text={
-                "I'm currently working on some exciting projects that I can't wait to share with you. But I’m always open to new opportunities and collaborations."
+                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, or discovering new music in my favorite genres like RnB, Hip-Hop, and Techo."
               }
             />
           </div>
@@ -63,7 +63,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "JavaScript (ES6+), React, Next.js, TypeScript, Prismic CMS, Redux, Redux Toolkit, React Testing Library, Vitetest, HTML5, Git/GitHub, NextAuth, Formik."
+                  "JavaScript, SvelteKit, React, Next.js, TypeScript, Sanity CMS, Redux, Redux Toolkit, React Query, HTML5, Git."
                 }
               />
             </div>
@@ -78,7 +78,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "CSS3/SCSS/SASS, Tailwind CSS, Material UI, Framer Motion, GSAP, Bootstrap, Chart.js."
+                  "Tailwind CSS, Material UI, ShadCN, Framer Motion, GSAP, Chart.js."
                 }
               />
             </div>
@@ -93,7 +93,37 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Figma, Framer, FigJam, Adobe XD, ProtoPie, Adobe Photoshop, UX Research, UI Design, Prototyping."
+                  "Figma, Framer, Adobe XD, Canva"
+                }
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"Backend Technologies"}
+                className={
+                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "Python, FastAPI, Django, Flask, NodeJs, ExpressJs, NestJs"
+                }
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <AnimatedTitle
+                text={"Database"}
+                className={
+                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={
+                  "MongoDB, PostgreSQL, Prisma ORM, SQL"
                 }
               />
             </div>

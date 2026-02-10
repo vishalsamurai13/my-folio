@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import image from "../../public/image.PNG"
+import Profile from "../../public/image.png";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/victorwilliams/30min"
+            href="https://cal.com/vishal-sharma-jev5gu"
             target="_blank"
             aria-label="BOOK A CALL"
           >
@@ -73,7 +73,7 @@ const Hero = () => {
             variants={imageAnimation}
           >
             <Image
-              src={profile}
+              src={Profile}
               priority
               alt="Vishal's headshot"
               data-blobity-tooltip="Giga Chad"
@@ -99,11 +99,11 @@ const Hero = () => {
               href="https://www.prodt.co/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Kora Website"
+              aria-label="prodt Website"
             >
               ProDT,
             </Link>{" "}
-            currently available for work.
+            currently available for <span className="text-green-500">work</span>.
           </p>
         </motion.div>
 
