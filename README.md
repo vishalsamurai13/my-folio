@@ -17,7 +17,7 @@ I enjoy collaborating with teams, translating ideas into well-architected produc
 Clone the project
 
 ```bash
-  git clone https://github.com/victorcodess/folio-v1
+  git clone https://github.com/vishalsamurai13/my-folio.git
 ```
 
 Go to the project directory
