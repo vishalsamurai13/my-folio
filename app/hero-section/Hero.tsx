@@ -34,6 +34,18 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
+            href="https://drive.google.com/file/d/1nVDSUElB608Vhh4vmb7PXzQcB8h9-3tx/view?usp=sharing"
+            target="_blank"
+            aria-label="View Resume"
+          >
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              RESUME
+            </motion.p>
+          </Link>
+          <Link
             href="https://github.com/vishalsamurai13"
             target="_blank"
             aria-label="View GitHub Profile"
