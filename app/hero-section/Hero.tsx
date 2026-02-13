@@ -4,7 +4,6 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import Profile from "@/public/image.png";
 
 const Hero = () => {
   return (
@@ -85,11 +84,13 @@ const Hero = () => {
             variants={imageAnimation}
           >
             <Image
-              src={Profile}
+              src="/image.png"
               priority
               alt="Vishal's headshot"
               data-blobity-tooltip="Giga Chad"
               data-blobity-invert="false"
+              width={200}
+              height={200}
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
