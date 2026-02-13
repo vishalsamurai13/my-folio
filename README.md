@@ -23,7 +23,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd folio-v1
+  cd my-folio
 ```
 
 Install dependencies
