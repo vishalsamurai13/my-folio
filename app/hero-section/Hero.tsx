@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import Profile from "../../public/image.png";
+import Profile from "@/public/image.png";
 
 const Hero = () => {
   return (
@@ -115,7 +115,8 @@ const Hero = () => {
             >
               ProDT,
             </Link>{" "}
-            currently available for <span className="text-green-500">work</span>.
+            currently available for <span className="text-green-500">work</span>
+            .
           </p>
         </motion.div>
 
@@ -124,7 +125,8 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on building interfaces and scalable systems, working remotely from Mumbai, India.
+            Focused on building interfaces and scalable systems, working
+            remotely from Mumbai, India.
           </p>
         </motion.div>
       </div>
