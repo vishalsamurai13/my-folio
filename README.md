@@ -10,7 +10,7 @@ I enjoy collaborating with teams, translating ideas into well-architected produc
 
 **Hosting:** Vercel.
 
-[View Live Demo](https://folio-v1-victorcodess.vercel.app/)
+[View Live Demo](https://vishal-folio.vercel.app/)
 
 ## Run Locally
 
